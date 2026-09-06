@@ -164,12 +164,12 @@ GitHub CLI로도 실행할 수 있습니다.
 ```bash
 # 특정 월
 gh workflow run archive.yml \
-  --repo Kimgyuilli/slack-notion-monthly-archive \
+  --repo sopt-makers/slack-notion-archive \
   -f month=2026-08
 
 # 지난달
 gh workflow run archive.yml \
-  --repo Kimgyuilli/slack-notion-monthly-archive
+  --repo sopt-makers/slack-notion-archive
 ```
 
 ### 로컬에서 실행
